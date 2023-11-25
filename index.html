@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class=" bg-[url('img1.png')] w-full min-h-screen bg-no-repeat bg-cover">
-    <header class="w-full">
-      <div class="flex justify-between items-center">
+<body class="relative">
+  <div class=" relative bg-[url('img1.png')] w-full min-h-screen bg-no-repeat bg-cover">
+    <header class="w-full ">
+      <div class="flex justify-between">
           <div class="border-2 bg-[#fffbea] mt-5 ml-4 text-lg py-2 px-5">
               <ul class="flex text-lg">
                   <li class="inline-block pr-4">Home</li>
@@ -21,8 +21,8 @@
                   <li class="inline-block pr-4">Offers</li>
               </ul>
           </div>
-          <div class="flex space-x-4 items-center mr-4">
-              <div class="border-black bg-[#fffbea] py-2 px-4 font-bold text-lg mt-5">
+          <div class="bottom-10 flex space-x-4 items-center mr-4">
+              <div class="bg-[#fffbea] py-2 px-4 font-bold text-lg mt-5">
                   AUTOCAMP
               </div>
               <div class="bg-[#fffbea] py-2 px-4 text-lg mt-5">
@@ -32,7 +32,7 @@
       </div>
   </header>
 </div>
-<section class="  flex border-2 border-black  mx-20 px-20 mt-5 pl-20 bg-[#2b231a] text-white">
+<section class="absolute z-10 mt-[-52px] left-60 flex border-2 border-black  w-3/4 justify-center items-center bg-[#2b231a] text-white">
     <div class=" text-lg ml-10 my-5">
         <p class="text-xs py-1">I want to stay at</p>
         <p class="py-1">AutoCamp</p>
@@ -51,6 +51,68 @@
     <div class="text-lg ml-10 my-5">
         <P class="border-2 rounded-2xl py-2 px-5 bg-[#fbf432] text-black mt-7">CHECK AVALABILITY</P>
     </div>
+</section>
+<section class="mt-52  mt-[-160px] bg-[#fffbea] w-full min-h-screen  font-serif">
+        <div class="text-6xl font-serif ml-28 mt-40 pt-40">
+            Where boutique hotel<br>
+            meets nature escape.
+        </div>
+        <div class="flex mt-20 w-full"> 
+            <div class="ml-32 w-2/4">
+                <p class="text-4xl">Inspired Design.</p>
+                <p class="text-lg mt-5 font-sans-serif">
+                    Every detail of the AutoCamp experience combines the best of mid-century<br> 
+                    design with modern amenities: custom-designed Airstreams, gourmet food,<br>
+                    guided experiences, and four-star service, all curated for you to reconnect <br>
+                    with your surroundings.
+                </p>
+                <p class="text-xl mt-5">View Gallery
+                    <hr class="mr-[590px] mt-2  border-2 border-black text-[black]">
+                </p>
+            </div>
+            <div class="w-2/4">
+                <p class="text-4xl">Iconic Destinations.</p>
+                <p class="text-lg mt-3">
+                    AutoCamp is the place you want to book near the place you want to be. Our <br>
+                    locations are nestled alongside national parks and the most beautiful nature <br>
+                     escapes across America, so you can get outdoors but keep all the comforts <br>
+                      of high-end hospitality.
+                </p>
+                <p class="text-xl mt-5">Explore Locations
+                    <hr class="mr-[530px] mt-2  border-2 border-black text-[black]">
+                </p>
+            </div>
+        </div>
+</section>
+<section class="flex mt-0">
+    <div class="w-[70%] ">
+        <img src="img2.jpg" alt="img2">
+    </div>
+    <div class="w-[30%]  h-[632px] bottom-10  pb-[150px] font-[ ABCArizonaMix-Light-Trial,serif] bg-[#2c261b] pb-10">
+        <p class="text-6xl pl-10 pt-36 font-[ABCArizonaMix-Light-Trial,serif] text-white">AutoCamp<br>
+                    Zion
+        </p>
+        <p class="text-xl pl-10 font-[MNKYBananaGrotesk-Regular,sans-serif] mt-10 text-white">Whether you're the exploring the <br>
+                    national park or taking a dip in the <br>
+                     Virgin River,AutoCamp Zion is your <br>
+                      oasis after a day exploring out in the <br> 
+                      Utah wilderness</p>
+        <p class="mt-10   ml-10 py-3 px-9 mr-56 text-gl border-2 rounded-2xl border border-black bg-[#fbf432]">LEARN MORE</p>
+    </div>
+</section>
+<section class="mt-52 flex">
+    <div class="ml-5 w-[30%] bg-[#f5e4c4] mb-[272px] mt-0">
+        <p class="text-5xl mt-32 ml-16 font-[ABCArizonaMix-Light-Trial,serif]">
+            Airstreams
+        </p>
+        <p class="text-[15px] ml-10 font-[MNKYBananaGrotesk-Regular,sans-serif] mt-10">our most iconic site.Inside of a timeless 31-foot Airstreams<br>
+             you'll find a bright and airy sitting  room, private full bathroom,<br>
+             and kitchenette. Enjoy your favorite amenities,surrounded<br>
+              by nature.</p>
+    </div>
+        <div class="w-[70%] min-h-screen">
+            <img src="img3..jpg" alt="img3">
+        </div>
 </section>
 </body>
 </html>
